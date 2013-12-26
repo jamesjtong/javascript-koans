@@ -86,8 +86,7 @@ describe("About Applying What We Have Learnt", function() {
   });
 
   it("should count the ingredient occurrence (functional)", function () {
-    var ingredientCount = { "{ingredient name}": 0 };
-      ingredientCount = _.chain(products)
+    var ingredientCount = _(products).chain()
         .pluck("ingredients").flatten()
         .reduce(function (memo, item) {
           memo[item] = (memo[item] || 0)+1;
