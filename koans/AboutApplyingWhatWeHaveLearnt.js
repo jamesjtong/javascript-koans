@@ -97,6 +97,7 @@ describe("About Applying What We Have Learnt", function() {
 
   /*********************************************************************************/
   /* UNCOMMENT FOR EXTRA CREDIT */
+  // save for later
   /*
   it("should find the largest prime factor of a composite number", function () {
 
